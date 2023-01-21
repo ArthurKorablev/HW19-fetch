@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    width: 25%;
+    height: 30%;
+    position: relative;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: rgb(217, 217, 234);
+    box-shadow: 1px 1px 8px rgb(76, 75, 78);;
+}
+
+#city{
+    font-family: sans-serif;
+    margin: 0.5rem;
+}
+
+.temp{
+    position: absolute;
+    width: 30%;
+    top: 2rem;
+    right: 0;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 0.5rem;
+}
+
+.icon{
+    position: absolute;
+    top: 2.5rem;
+    right: 2rem;
+    border-radius: 5px;
+}
+
+.description{
+    font-family: sans-serif;
+}
